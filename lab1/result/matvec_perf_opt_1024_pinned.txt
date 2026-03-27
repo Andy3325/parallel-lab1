@@ -1,0 +1,24 @@
+mode=opt n=1024 repeat=20 avg_ms=0.278820 checksum=640308477952.000000
+mode=opt n=1024 repeat=20 avg_ms=0.270573 checksum=640308477952.000000
+mode=opt n=1024 repeat=20 avg_ms=0.265326 checksum=640308477952.000000
+mode=opt n=1024 repeat=20 avg_ms=0.268325 checksum=640308477952.000000
+mode=opt n=1024 repeat=20 avg_ms=0.268224 checksum=640308477952.000000
+mode=opt n=1024 repeat=20 avg_ms=0.265051 checksum=640308477952.000000
+mode=opt n=1024 repeat=20 avg_ms=0.264365 checksum=640308477952.000000
+mode=opt n=1024 repeat=20 avg_ms=0.264803 checksum=640308477952.000000
+mode=opt n=1024 repeat=20 avg_ms=0.265425 checksum=640308477952.000000
+mode=opt n=1024 repeat=20 avg_ms=0.264927 checksum=640308477952.000000
+
+ Performance counter stats for './build/matvec opt 1024 20' (10 runs):
+
+     <not counted>      cpu_atom/instructions/                                                  (0.00%)
+       178,265,538      cpu_core/instructions/           #    3.94  insn per cycle              ( +-  0.01% )
+     <not counted>      cpu_atom/cycles/                                                        (0.00%)
+        45,274,356      cpu_core/cycles/                                                        ( +-  1.12% )
+     <not counted>      cpu_atom/cache-references/                                              (0.00%)
+         3,116,828      cpu_core/cache-references/                                              ( +-  0.03% )
+     <not counted>      cpu_atom/cache-misses/                                                  (0.00%)
+            30,514      cpu_core/cache-misses/           #    0.98% of all cache refs           ( +- 51.95% )
+
+          0.005429 +- 0.000369 seconds time elapsed  ( +-  6.81% )
+

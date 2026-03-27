@@ -1,0 +1,20 @@
+mode=chain n=4194304 repeat=10 avg_ms=1.337351 checksum=207617856
+mode=chain n=4194304 repeat=10 avg_ms=1.300150 checksum=207617856
+mode=chain n=4194304 repeat=10 avg_ms=1.380849 checksum=207617856
+mode=chain n=4194304 repeat=10 avg_ms=1.368597 checksum=207617856
+mode=chain n=4194304 repeat=10 avg_ms=1.695769 checksum=207617856
+mode=chain n=4194304 repeat=10 avg_ms=1.834820 checksum=207617856
+mode=chain n=4194304 repeat=10 avg_ms=1.354052 checksum=207617856
+mode=chain n=4194304 repeat=10 avg_ms=1.477234 checksum=207617856
+mode=chain n=4194304 repeat=10 avg_ms=1.377431 checksum=207617856
+mode=chain n=4194304 repeat=10 avg_ms=1.348755 checksum=207617856
+
+ Performance counter stats for './build/sum chain 4194304 10' (10 runs):
+
+     <not counted>      cpu_atom/instructions/                                                  (0.00%)
+       302,391,515      cpu_core/instructions/           #    1.92  insn per cycle              ( +-  0.02% )
+     <not counted>      cpu_atom/cycles/                                                        (0.00%)
+       157,101,166      cpu_core/cycles/                                                        ( +-  2.88% )
+
+          0.024689 +- 0.000777 seconds time elapsed  ( +-  3.15% )
+

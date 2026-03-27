@@ -1,0 +1,20 @@
+mode=chain n=16384 repeat=200 avg_ms=0.002886 checksum=810336
+mode=chain n=16384 repeat=200 avg_ms=0.002893 checksum=810336
+mode=chain n=16384 repeat=200 avg_ms=0.002878 checksum=810336
+mode=chain n=16384 repeat=200 avg_ms=0.002893 checksum=810336
+mode=chain n=16384 repeat=200 avg_ms=0.003274 checksum=810336
+mode=chain n=16384 repeat=200 avg_ms=0.002888 checksum=810336
+mode=chain n=16384 repeat=200 avg_ms=0.002929 checksum=810336
+mode=chain n=16384 repeat=200 avg_ms=0.002875 checksum=810336
+mode=chain n=16384 repeat=200 avg_ms=0.002893 checksum=810336
+mode=chain n=16384 repeat=200 avg_ms=0.002876 checksum=810336
+
+ Performance counter stats for './build/sum chain 16384 200' (10 runs):
+
+     <not counted>      cpu_atom/instructions/                                                  (0.00%)
+        17,303,891      cpu_core/instructions/           #    2.99  insn per cycle              ( +-  0.04% )
+     <not counted>      cpu_atom/cycles/                                                        (0.00%)
+         5,791,837      cpu_core/cycles/                                                        ( +-  0.31% )
+
+         0.0001480 +- 0.0000992 seconds time elapsed  ( +- 67.05% )
+

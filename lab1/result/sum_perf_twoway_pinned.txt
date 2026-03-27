@@ -1,0 +1,20 @@
+mode=twoway n=4194304 repeat=10 avg_ms=1.339698 checksum=207617856
+mode=twoway n=4194304 repeat=10 avg_ms=1.447784 checksum=207617856
+mode=twoway n=4194304 repeat=10 avg_ms=1.292441 checksum=207617856
+mode=twoway n=4194304 repeat=10 avg_ms=1.528473 checksum=207617856
+mode=twoway n=4194304 repeat=10 avg_ms=1.312086 checksum=207617856
+mode=twoway n=4194304 repeat=10 avg_ms=1.292283 checksum=207617856
+mode=twoway n=4194304 repeat=10 avg_ms=1.332730 checksum=207617856
+mode=twoway n=4194304 repeat=10 avg_ms=1.432468 checksum=207617856
+mode=twoway n=4194304 repeat=10 avg_ms=1.539001 checksum=207617856
+mode=twoway n=4194304 repeat=10 avg_ms=1.335559 checksum=207617856
+
+ Performance counter stats for './build/sum twoway 4194304 10' (10 runs):
+
+     <not counted>      cpu_atom/instructions/                                                  (0.00%)
+       279,294,716      cpu_core/instructions/           #    1.86  insn per cycle              ( +-  0.00% )
+     <not counted>      cpu_atom/cycles/                                                        (0.00%)
+       150,297,057      cpu_core/cycles/                                                        ( +-  1.53% )
+
+          0.023612 +- 0.000422 seconds time elapsed  ( +-  1.79% )
+

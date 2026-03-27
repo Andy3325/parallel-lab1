@@ -1,0 +1,19 @@
+mode=opt n=1024 repeat=20 avg_ms=0.497092 checksum=640308477952.000000
+
+ Performance counter stats for './build/matvec opt 1024 20':
+
+     <not counted>      cpu_atom/instructions/                                                  (0.00%)
+       178,615,278      cpu_core/instructions/           #    3.66  insn per cycle            
+     <not counted>      cpu_atom/cycles/                                                        (0.00%)
+        48,840,417      cpu_core/cycles/                                                      
+     <not counted>      cpu_atom/cache-references/                                              (0.00%)
+         3,139,681      cpu_core/cache-references/                                            
+     <not counted>      cpu_atom/cache-misses/                                                  (0.00%)
+           214,775      cpu_core/cache-misses/           #    6.84% of all cache refs         
+
+       0.020402760 seconds time elapsed
+
+       0.011810000 seconds user
+       0.008857000 seconds sys
+
+

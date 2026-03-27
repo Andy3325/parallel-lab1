@@ -1,0 +1,19 @@
+mode=naive n=1024 repeat=20 avg_ms=2.194648 checksum=640308477952.000000
+
+ Performance counter stats for './build/matvec naive 1024 20':
+
+        53,618,014      cpu_atom/instructions/           #    1.11  insn per cycle              (9.48%)
+       191,997,471      cpu_core/instructions/           #    0.64  insn per cycle              (90.52%)
+        48,147,851      cpu_atom/cycles/                                                        (9.48%)
+       301,687,910      cpu_core/cycles/                                                        (90.52%)
+           665,649      cpu_atom/cache-references/                                              (9.48%)
+        33,629,141      cpu_core/cache-references/                                              (90.52%)
+           433,373      cpu_atom/cache-misses/           #   65.11% of all cache refs           (9.48%)
+           180,269      cpu_core/cache-misses/           #    0.54% of all cache refs           (90.52%)
+
+       0.062109907 seconds time elapsed
+
+       0.050988000 seconds user
+       0.011217000 seconds sys
+
+

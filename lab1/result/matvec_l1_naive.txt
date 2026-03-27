@@ -1,0 +1,19 @@
+mode=naive n=1024 repeat=20 avg_ms=1.956037 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=1.958680 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=1.957114 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=1.956094 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=1.951715 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=1.948940 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=1.948787 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=1.953056 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=1.945897 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=1.950168 checksum=640308477952.000000
+
+ Performance counter stats for './build/matvec naive 1024 20' (10 runs):
+
+        47,840,325      cpu_core/L1-dcache-loads/                                               ( +-  0.01% )
+        21,690,473      cpu_core/L1-dcache-load-misses/  #   45.34% of all L1-dcache accesses   ( +-  0.00% )
+         3,330,635      cpu_core/L1-dcache-stores/                                              ( +-  0.11% )
+
+         0.0406299 +- 0.0000952 seconds time elapsed  ( +-  0.23% )
+

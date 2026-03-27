@@ -1,0 +1,24 @@
+mode=naive n=1024 repeat=20 avg_ms=2.356999 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=2.499143 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=2.472924 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=2.474170 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=2.439164 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=2.406932 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=2.422704 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=2.467728 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=2.395359 checksum=640308477952.000000
+mode=naive n=1024 repeat=20 avg_ms=2.357026 checksum=640308477952.000000
+
+ Performance counter stats for './build/matvec naive 1024 20' (10 runs):
+
+     <not counted>      cpu_atom/instructions/                                                  (0.00%)
+       178,598,828      cpu_core/instructions/           #    0.59  insn per cycle              ( +-  0.01% )
+     <not counted>      cpu_atom/cycles/                                                        (0.00%)
+       304,474,375      cpu_core/cycles/                                                        ( +-  0.61% )
+     <not counted>      cpu_atom/cache-references/                                              (0.00%)
+        32,588,575      cpu_core/cache-references/                                              ( +-  2.18% )
+     <not counted>      cpu_atom/cache-misses/                                                  (0.00%)
+            65,611      cpu_core/cache-misses/           #    0.20% of all cache refs           ( +- 27.54% )
+
+          0.050976 +- 0.000490 seconds time elapsed  ( +-  0.96% )
+
